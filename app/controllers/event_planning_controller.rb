@@ -1,0 +1,2 @@
+class EventPlanningController < ApplicationController
+end

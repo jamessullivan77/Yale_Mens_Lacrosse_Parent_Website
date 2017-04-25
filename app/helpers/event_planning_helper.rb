@@ -1,0 +1,2 @@
+module EventPlanningHelper
+end

@@ -14,3 +14,292 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+// #########################################
+// event_planning_show js
+// #########################################
+document.addEventListener('DOMContentLoaded', function(){
+
+var state = 0
+// ######################################################################################
+// functions opening dropdowns 
+// ######################################################################################
+    document.getElementById('villanova').onclick = function(){
+      console.log('click');
+        state = 1
+          console.log('state 1');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_1').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('maryland').onclick = function(){
+      console.log('click');
+        state = 2
+          console.log('state 2');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_2').style.display = 'inline-block';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('bryant').onclick = function(){
+      console.log('click');
+        state = 3
+          console.log('state 3');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_3').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('umass').onclick = function(){
+      console.log('click');
+        state = 4
+          console.log('state 4');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_4').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('fairfield').onclick = function(){
+      console.log('click');
+        state = 5
+          console.log('state 5');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_5').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('cornell').onclick = function(){
+      console.log('click');
+        state = 6
+          console.log('state 6');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_6').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('princeton').onclick = function(){
+      console.log('click');
+        state = 7
+          console.log('state 7');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_7').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('upenn').onclick = function(){
+      console.log('click');
+        state = 8
+          console.log('state 8');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_8').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('st_johns').onclick = function(){
+      console.log('click');
+        state = 9
+          console.log('state 9');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_9').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('dartmouth').onclick = function(){
+      console.log('click');
+        state = 10
+          console.log('state 10');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_10').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('brown').onclick = function(){
+      console.log('click');
+        state = 11
+          console.log('state 11');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_11').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('albany').onclick = function(){
+      console.log('click');
+        state = 12
+          console.log('state 12');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_12').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+                document.getElementById('dropdown_13').style.display = 'none';
+            });
+    };
+
+     document.getElementById('harvard').onclick = function(){
+      console.log('click');
+        state = 13
+          console.log('state 13');
+            document.addEventListener('click', function(){
+              document.getElementById('dropdown_13').style.display = 'inline-block';
+                document.getElementById('dropdown_2').style.display = 'none';
+                document.getElementById('dropdown_3').style.display = 'none';
+                document.getElementById('dropdown_4').style.display = 'none';
+                document.getElementById('dropdown_5').style.display = 'none';
+                document.getElementById('dropdown_6').style.display = 'none';
+                document.getElementById('dropdown_7').style.display = 'none';
+                document.getElementById('dropdown_8').style.display = 'none';
+                document.getElementById('dropdown_9').style.display = 'none';
+                document.getElementById('dropdown_10').style.display = 'none';
+                document.getElementById('dropdown_11').style.display = 'none';
+                document.getElementById('dropdown_12').style.display = 'none';
+                document.getElementById('dropdown_1').style.display = 'none';
+            });
+    };
+
+             
+
+
+
+
+
+});
