@@ -1,3 +1,151 @@
 // Place all the styles related to the schedule controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/*#################
+Container 3
+#################*/
+.container_3{
+  height: fill;
+  width: fill;
+  border: solid grey 1px;
+  position: relative;
+}
+.schedule_2017{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.schedule_2017 h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.schedule_2017 h2:hover{
+  color: green;
+  cursor: pointer;
+}
+.dropdown{
+  height: 50px;
+  width: 350px;
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 15px;
+}
+.dropdown h4{
+  width: 150px;
+  display: inline-block;
+  margin: 0px;
+  margin-top: 10px;
+}
+.dropdown h4:hover{
+  color: black;
+  cursor: pointer;
+}
+.dropdown_1{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_2{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_3{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_4{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_5{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_6{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_7{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_8{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_9{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_10{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_11{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_12{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_13{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
