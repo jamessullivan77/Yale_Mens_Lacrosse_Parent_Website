@@ -303,10 +303,48 @@ var state = 0
             });
     };
 
-             
 
 
+// #############################################################################################       
+// ############################################################################################# 
+// Pregame tailgate button add text and column
+// ############################################################################################# 
+// ############################################################################################# 
 
+document.getElementById('items_button').addEventListener('click',
+    function(event){
+    event.preventDefault();
+    var table = document.getElementById('pregame_tailgate_table');
+    var newItems = document.getElementById('items_text').value;
+    var row = table.insertRow(2);
+    // var cell1 = row.insertCell(0);
+    
+    document.getElementById('items_text').value = ""
+    
+    cell1.innerText = newItems;
 
+    }); 
+
+document.getElementById('parent_button').addEventListener('click',
+    function(event){
+    event.preventDefault();
+    var table = document.getElementById('pregame_tailgate_table');
+    var newParent = document.getElementById('parent_text').value;
+    var row = table.insertRow(2);
+    // var cell2 = row.insertCell(1);
+
+    document.getElementById('parent_text').value = ""
+    
+    cell2.innerText = newParent;
+
+ 
+    });
+var table = document.getElementById('pregame_tailgate_table');
+var row = table.insertRow(2);
+var cell1 = row.insertCell(0); 
+var cell2 = row.insertCell(1);   
 
 });
+
+
+

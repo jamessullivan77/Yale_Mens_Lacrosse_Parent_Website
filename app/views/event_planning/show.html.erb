@@ -85,33 +85,39 @@
       </div>
     </div>
 
-    <div class="items">
-      <div class="pregame_items">
-        <h3>Pregame Tailgate</h3>
-          <table class="pregame_tailgate_table">
-            <tr>
-              <th>Items</th>
-              <th>Parent</th>
-            </tr>
+<div class="items">
+  <div class="pregame_items">
+    <h3>Pregame Tailgate</h3>
+      <table id="pregame_tailgate_table" class="pregame_tailgate_table">
+        <tr>
+          <th>Items</th>
+          <th>Parent</th>
+        </tr>
+        <tr>
+          
+        </tr>
+          <tfoot>
             <tr>
               <td>
-
+                <form>
+                  <input id="items_text" class="items_text" type="input" name="items_text">
+                  <br>
+                  <input id="items_button" class="items_button" type="submit" name="items_button">
+                </form>
               </td>
+              
               <td>
-                
+                <form>
+                  <input id="parent_text" class="parent_text" type="input" name="parent_text">
+                  <br>
+                  <input id="parent_button" class="parent_button" type="submit" name="parent_button">
+                </form>
               </td>
             </tr>
-          </table>
-      <form>
-        <input class="items_text" type="input" name="items_submit">
-          <br>
-          <input class="items_button" type="submit" name="items_button">
-      </form>
-      <form>
-        <input class="parent_text" type="input" name="items_submit">
-          <br>
-          <input class="parent_button" type="submit" name="items_button">
-      </form>
+          </tfoot>  
+      </table>
+    
+     
       </div>
 
     </div>
