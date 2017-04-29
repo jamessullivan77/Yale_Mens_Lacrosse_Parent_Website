@@ -1,0 +1,2 @@
+class LiveGamesController < ApplicationController
+end

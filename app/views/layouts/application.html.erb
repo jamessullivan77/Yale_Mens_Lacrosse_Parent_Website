@@ -30,19 +30,25 @@
 
     <div class="container_2">
       <div class="nav_bar">
-        <a href="index.html"><h1 class="home">Home</h1></a>
-        <a href="roster.html"><h1 class="roster">Roster</h1></a>
-        <a href="event_planning.html"><h1 class="event_planning">Event Planning</h1></a>
-        <a href="schedule.html"><h1 class="schedule">Team Schedule</h1></a>
-        <a href="live_games.html"><h1 class="live_games">Live Stream</h1></a>
+        <% link_to 'Home' %><a href="/"><h1 class="home">Home</h1></a>
+        
+        <% link_to 'Roster' %><a href="/roster"><h1 class="roster">Roster</h1></a>
+        
+        <% link_to 'Event Planning' %><a href="/event_planning"><h1 class="event_planning">Event Planning</h1></a>
+        
+        <% link_to 'Schedule' %><a href="/schedule"><h1 class="schedule">Team Schedule</h1></a>
+        
+        <a href="live_games.html"><a href="/live_games"><h1 class="live_games">Live Stream</h1></a>
       </div>
     </div>
 
     <div class="container_3">
       
+      <%= yield %>
+
     </div>
 
-    <%= yield %>
+    
 
   </body>
 </html>
