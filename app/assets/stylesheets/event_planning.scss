@@ -1,3 +1,368 @@
 // Place all the styles related to the event_planning controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  background-color: DarkBlue;
+}
+/*#################
+Container 1
+#################*/
+.container_1{
+  height: 200px;
+  width: fill;
+  border: solid grey 1px;
+  position: relative;
+}
+.top_left{
+  height: 200px;
+  width: 300px;
+  float: left;
+  border: solid red 1px;
+}
+.crest{
+  height: 150px;
+  width: 200px;
+  margin-left: 48px;
+  border: solid black 5px;
+}
+.top_center{
+  height: 200px;
+  width: 600px;
+  border: solid red 1px;
+  float: left;
+}
+.header{
+  height: 200px;
+  width: 600px;
+  text-align: center;
+  border: solid gold 1px;
+}
+.title{
+  font-size: 30px;
+  color: white;
+  font-family: 'Graduate', cursive;
+}
+.subtitle{
+  margin-top: 60px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+.top_right{
+  height: 200px;
+  width: 355px;
+  border: solid red 1px;
+  float: right;
+}
+.ivy_logo{
+  height: 100px;
+  width: 200px;
+  margin-left: 75px;
+  border: solid black 3px;
+  margin-bottom: 40px;
+}
+.acalades{
+  margin-top: 0px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Graduate', cursive;
+  text-align: center;
+}
+
+/*#################
+Container 2
+#################*/
+.container_2{
+  height: 100px;
+  width: fill;
+  border: solid grey 1px;
+  position: relative;
+}
+.nav_bar{
+  height: 50px;
+  width: fill;
+  border: solid red 1px;
+  margin-top: 13px; 
+}
+.home{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.home:hover{
+  text-decoration: underline;
+  color: green;
+}
+.roster{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.roster:hover{
+  text-decoration: underline;
+  color: green;
+}
+.event_planning{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.event_planning:hover{
+  text-decoration: underline;
+  color: green;
+}
+.schedule{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.schedule:hover{
+  text-decoration: underline;
+  color: green;
+}
+.live_games{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.live_games:hover{
+  text-decoration: underline;
+  color: green;
+}
+/*#################
+Container 3
+#################*/
+.container_3{
+  height: fill;
+  width: fill;
+  border: solid grey 1px;
+  position: relative;
+}
+.schedule_2017{
+  font-size: 20px;
+  font-family: 'Graduate', cursive;
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  position: relative;
+}
+.schedule_2017 h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.schedule_2017 h2:hover{
+  color: green;
+  cursor: pointer;
+}
+.dropdown{
+  height: 50px;
+  width: 350px;
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 15px;
+}
+.dropdown h4{
+  width: 150px;
+  display: inline-block;
+  margin: 0px;
+  margin-top: 10px;
+}
+.dropdown h4:hover{
+  color: black;
+  cursor: pointer;
+}
+.dropdown_1{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_2{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_3{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_4{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_5{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_6{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_7{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_8{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_9{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_10{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_11{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_12{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.dropdown_13{
+  margin-top: 0px;
+  border: solid black 3px;
+  width: 350px;
+  height: 40px;
+  margin: 10px;
+  display: none;
+}
+.items{
+  height: 500px;
+  width: 800px;
+  position: relative;
+  float: right;
+  border: solid grey 1px;
+  margin-top: 50px;
+}
+.pregame_items{
+  height: 500px;
+  width: 600px;
+  border: solid red 1px;
+  background-color: white;
+}
+.pregame_items h3{
+  font-family: 'Graduate', cursive;
+  font-size: 30px;
+  text-align: center; 
+  margin-top: 10px;
+  text-decoration: underline;
+}
+.pregame_tailgate_table {
+  border: solid black 2px;
+}
+th{
+  padding: 10px;
+  text-align: center;
+  font-family: 'Graduate', cursive;
+  border: solid black 2px;
+  margin-right: 200px;
+  width: 400px;
+}
+td{
+  padding: 10px;
+  text-align: center;
+  font-family: 'Graduate', cursive;
+  border: solid black 2px;
+}
+form{
+  padding: 10px;
+  margin: 0px;
+  display: inline-block;
+}
+.items_text{
+  height: 20px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.items_button{
+  margin-left: 110px;
+}
+.parent_text{
+  height: 20px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.parent_button{
+  margin-left: 110px;
+}
